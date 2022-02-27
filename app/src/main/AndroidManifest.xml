@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.hbisoft.hbrecorderexample">
+    package="com.DefaultCompany.MyAndroid">
 
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -20,7 +20,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".SettingsActivity"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Uplugin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
